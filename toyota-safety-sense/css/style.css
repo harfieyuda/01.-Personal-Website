@@ -35,7 +35,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
+    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: white;
     /*filter: drop-shadow(white 0rem 1rem 0.5rem);*/
     /* filter: drop-shadow(#1b1b1b 0rem 0rem 0.05rem); */
@@ -96,7 +98,7 @@ body{
 .description-container{
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .project-title{
@@ -105,8 +107,9 @@ body{
 }
 
 .project-detail{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 1rem;
+    /* grid-template-columns: 1fr 1fr; */
     margin-top: 5%;
 }
 
