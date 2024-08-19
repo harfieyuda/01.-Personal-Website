@@ -101,13 +101,14 @@ body{
 }
 
 .text-hero{
-    /* margin: 1%; */
+    margin: 1%;
     font-size: 1.25rem;
     color: #1b1b1b;
     /*mix-blend-mode: difference;*/
 }
 
 .socmed{
+    margin: 1%;
     display: flex;
     gap: 1.5rem;
 }
