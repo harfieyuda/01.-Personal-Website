@@ -35,14 +35,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5%;
+    padding: 2%;
     background-color: white;
     /*filter: drop-shadow(white 0rem 1rem 0.5rem);*/
     /* filter: drop-shadow(#1b1b1b 0rem 0rem 0.05rem); */
 }
 
 .logo{
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     margin: 1%;
     color: #1b1b1b;
@@ -57,8 +57,8 @@ body{
 
 .burger-menu{
     display: block;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     color: #1b1b1b;
     background: transparent;
     background-color: white;
@@ -96,11 +96,11 @@ body{
 .description-container{
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
-    margin-top: 13%;
+    margin-top: 20%;
 }
 
 .project-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -111,27 +111,27 @@ body{
 }
 
 .title-wrapper{
-    font-size: 1rem;
+    font-size: 0.75rem;
     color: #757575;
 }
 
 .body-wrapper{
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #1b1b1b;
 }
 
 .paragraph-1{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-top: 5%;
 }
 
 .paragraph-2{
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 .paragraph-3{
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 .section-2{
@@ -169,8 +169,8 @@ body{
         right: 0.5rem;
         z-index: 31;
         color: #1b1b1b;
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         background: transparent;
         background-color: white;
         border-radius: 100%;
@@ -228,8 +228,8 @@ body{
         right: 0.5rem;
         z-index: 31;
         color: #1b1b1b;
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         background: transparent;
         background-color: white;
         border-radius: 100%;
