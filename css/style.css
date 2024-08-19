@@ -170,7 +170,7 @@ body{
 }
 
 .work-thumbnail:hover{
-    opacity: 50%;
+    /* opacity: 50%; */
     /* bottom: 1rem; */
     /* filter:grayscale(1); */
 }
