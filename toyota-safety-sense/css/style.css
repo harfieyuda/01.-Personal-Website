@@ -45,6 +45,8 @@ body{
     font-size: 1rem;
     font-weight: bold;
     margin: 1%;
+    color: #1b1b1b;
+    text-decoration: none;
 
 }
 
@@ -69,6 +71,7 @@ body{
     padding: 1rem;
     color: #1b1b1b;
     transition: 0.25s;
+    text-decoration: none;
 }
 
 .link-active{
@@ -76,6 +79,7 @@ body{
     font-weight: bold;
     padding: 1rem;
     color: #1b1b1b;
+    text-decoration: none;
 }
 
 .link:hover{
@@ -192,10 +196,13 @@ body{
             font-size: 4rem;
             font-weight: bold;
             color: #1b1b1b;
+            text-decoration: none;
         }
 
         .menu-content-notactive{
             font-size: 4rem;
+            color: #1b1b1b;
+            text-decoration: none;
         }
 
         .menu-content-notactive:hover{
