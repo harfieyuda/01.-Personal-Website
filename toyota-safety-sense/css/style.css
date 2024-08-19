@@ -144,7 +144,7 @@ body{
 }
 
 .hero-image-container{
-    margin: 2%;
+    margin: 1%;
 }
 
 .hero-image{
@@ -154,8 +154,8 @@ body{
 .image-container-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2%;
-    margin: 2%;
+    gap: 1%;
+    margin: 1%;
 }
 
 .menu-wrapper{
