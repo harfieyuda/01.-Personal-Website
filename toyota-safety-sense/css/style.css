@@ -98,7 +98,7 @@ body{
 .description-container{
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .project-title{
@@ -126,11 +126,12 @@ body{
 
 .paragraph-1{
     font-size: 1.25rem;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .paragraph-2{
     font-size: 0.75rem;
+    margin-top: 10%;
 }
 
 .paragraph-3{
@@ -138,7 +139,7 @@ body{
 }
 
 .section-2{
-    margin-top: 10%;
+    margin-top: 15%;
 
 }
 
