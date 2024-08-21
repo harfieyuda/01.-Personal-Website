@@ -57,3 +57,7 @@ imageModal.forEach((img)=>{
         },0)
     })
 })
+
+if (!shouldShowModal) {
+  overlayWrapper.style.display = 'none';
+}
