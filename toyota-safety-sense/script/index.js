@@ -26,11 +26,6 @@ menuModal.forEach((menu) => {
     });
 });
 
-
-if (!shouldShowModal) {
-    menuWrapper.style.display = 'none';
-}
-
 //IMAGE MODAL
 
 const closeButton=document.querySelector('.close-button')
@@ -59,5 +54,6 @@ imageModal.forEach((img)=>{
 })
 
 if (!shouldShowModal) {
-  overlayWrapper.style.display = 'none';
+    menuWrapper.style.display = 'none';
+    overlayWrapper.style.display = 'none';
 }
