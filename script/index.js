@@ -26,11 +26,7 @@ menuModal.forEach((menu) => {
     });
 });
 
-// Check the flag on page load
-window.addEventListener('load', () => {
-    if (!shouldShowModal) {
-        menuWrapper.style.display = 'none';
-    }
-});
-
+if (!shouldShowModal) {
+  menuWrapper.style.display = 'none';
+}
 

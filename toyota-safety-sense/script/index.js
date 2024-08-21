@@ -26,13 +26,6 @@ menuModal.forEach((menu) => {
     });
 });
 
-// Check the flag on page load
-window.addEventListener('load', () => {
-    if (!shouldShowModal) {
-        menuWrapper.style.display = 'none';
-    }
-});
-
 //IMAGE MODAL
 
 const closeButton=document.querySelector('.close-button')
@@ -59,3 +52,8 @@ imageModal.forEach((img)=>{
         },0)
     })
 })
+
+if (!shouldShowModal) {
+    menuWrapper.style.display = 'none';
+    overlayWrapper.style.display = 'none';
+}
