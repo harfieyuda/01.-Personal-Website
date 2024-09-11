@@ -3,7 +3,7 @@
     <head>
         <title>Harfieyuda Ramadhan</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
@@ -46,9 +46,9 @@
         <section class="section-1">
         
             <div class="text-hero">
-                <p><span style="font-weight: bold; text-decoration: underline ;">Harfieyuda</span> is an Indonesia based designer who working in the intersection of graphic design, motion, & technology.</p>
+                <p data-aos="fade-up" data-aos-duration="1000"><span style="font-weight: bold; text-decoration: underline ;">Harfieyuda</span> is an Indonesia based designer who working in the intersection of graphic design, motion, & technology.</p>
 
-                <div class="socmed">
+                <div class="socmed" data-aos="fade-up" data-aos-duration="1500">
                     <a class="socmed-link" href="https://www.instagram.com/harfieyuda/">
                         <div>Instagram</div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-6">
@@ -73,7 +73,7 @@
         </section>
 
         <section class="section-2">
-                <div class="work-list">
+                <div class="work-list" data-aos="fade-up" data-aos-duration="1500">
                     <div class="project-1">
                         <div class="project-thumbnail-container">
                             <div class="overlay"></div>
@@ -166,7 +166,12 @@
                 </div>
         </section>
 
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="script/index.js"></script>
+
+        <script>
+            AOS.init({once: true});
+          </script>
 
     </body>
 </html>

@@ -378,7 +378,7 @@ body{
     }
     
     .hero-image-container{
-        margin: 1%;
+        margin: 0%;
     }
     
     .hero-image{
@@ -388,8 +388,8 @@ body{
     .image-container-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1%;
-        margin: 1%;
+        gap: 0.3%;
+        margin: 0%;
     }
 
     .overlay-wrapper{
