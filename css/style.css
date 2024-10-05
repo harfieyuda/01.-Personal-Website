@@ -194,6 +194,7 @@ body{
 }
 
 .project-type-green{
+    width: fit-content;
     margin:1%;
     color: #0e6027;
     font-size: 0.6rem;
@@ -204,6 +205,7 @@ body{
 }
 
 .project-type-red{
+    width: fit-content;
     margin:1%;
     color: #a2191f;
     font-size: 0.6rem;
@@ -214,6 +216,7 @@ body{
 }
 
 .project-type-yellow{
+    width: fit-content;
     margin:1%;
     color: #9e791b;
     font-size: 0.6rem;
@@ -224,6 +227,7 @@ body{
 }
 
 .project-type-blue{
+    width: fit-content;
     margin:1%;
     color: #0043ce;
     font-size: 0.6rem;
@@ -234,6 +238,7 @@ body{
 }
 
 .project-type-purple{
+    width: fit-content;
     margin:1%;
     color: #6929c4;
     font-size: 0.6rem;
