@@ -57,3 +57,29 @@ if (!shouldShowModal) {
     menuWrapper.style.display = 'none';
     overlayWrapper.style.display = 'none';
 }
+
+//VIDEO MODAL
+
+
+const videoModal=document.querySelectorAll('.video-modal')
+
+
+
+closeButton.addEventListener('click', ()=>{
+    overlayWrapper.style.display='none'
+    overlayContent.src=null
+    overlayContent.style.opacity='0%'
+    document.body.style.overflow='auto'
+})
+
+videoModal.forEach((video)=>{
+    video.addEventListener('click', ()=>{
+        document.body.style.overflow='hidden'
+        overlayContent.src=video.src
+        overlayWrapper.style.display='block'
+        const timeout=setTimeout(()=>{
+            overlayContent.style.opacity='100%'
+            clearTimeout(timeout)
+        },0)
+    })
+})
