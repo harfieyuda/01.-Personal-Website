@@ -251,7 +251,7 @@ body{
         justify-content: center;
         align-items: center;
 
-        .overlay-content{
+        .overlay-content, .overlay-content-video{
             width: 100%;
             height: fit-content;
             max-width: auto;
@@ -424,7 +424,7 @@ body{
             display: flex;
             justify-content: center;
 
-            .overlay-content{
+            .overlay-content, .overlay-content-video{
                 width: 100%;
                 height: auto;
                 max-width: 70rem;
@@ -598,7 +598,7 @@ body{
             display: flex;
             justify-content: center;
 
-            .overlay-content{
+            .overlay-content, .overlay-content-video{
                 width: 100%;
                 height: auto;
                 max-width: 70rem;
