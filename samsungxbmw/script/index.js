@@ -28,18 +28,14 @@ menuModal.forEach((menu) => {
 
 //IMAGE MODAL
 
-const closeButton=document.querySelector('.close-button')
+
+
+
+// image modal
 const overlayWrapper=document.querySelector('.overlay-wrapper')
-const imageModal=document.querySelectorAll('.image-modal')
 const overlayContent=document.querySelector('.overlay-content')
-
-
-closeButton.addEventListener('click', ()=>{
-    overlayWrapper.style.display='none'
-    overlayContent.src=null
-    overlayContent.style.opacity='0%'
-    document.body.style.overflow='auto'
-})
+const imageModal=document.querySelectorAll('.image-modal')
+const closeButton=document.querySelector('.close-button')
 
 imageModal.forEach((img)=>{
     img.addEventListener('click', ()=>{
@@ -53,33 +49,40 @@ imageModal.forEach((img)=>{
     })
 })
 
-if (!shouldShowModal) {
-    menuWrapper.style.display = 'none';
-    overlayWrapper.style.display = 'none';
-}
+closeButton.addEventListener('click', ()=>{
+  overlayWrapper.style.display='none'
+  overlayContent.src=null
+  overlayContent.style.opacity='0%'
+  document.body.style.overflow='auto'
+})
 
 //VIDEO MODAL
-
-
+const overlayWrapperVideo=document.querySelector('.overlay-wrapper-video')
+const overlayContentVideo=document.querySelector('.overlay-content-video')
 const videoModal=document.querySelectorAll('.video-modal')
-
-
-
-closeButton.addEventListener('click', ()=>{
-    overlayWrapper.style.display='none'
-    overlayContent.src=null
-    overlayContent.style.opacity='0%'
-    document.body.style.overflow='auto'
-})
+const closeButtonVideo=document.querySelector('.close-button-video')
 
 videoModal.forEach((video)=>{
     video.addEventListener('click', ()=>{
         document.body.style.overflow='hidden'
-        overlayContent.src=video.src
-        overlayWrapper.style.display='block'
+        overlayContentVideo.src=video.src
+        overlayWrapperVideo.style.display='block'
         const timeout=setTimeout(()=>{
-            overlayContent.style.opacity='100%'
+          overlayContentVideo.style.opacity='100%'
             clearTimeout(timeout)
         },0)
     })
 })
+
+closeButtonVideo.addEventListener('click', ()=>{
+  overlayWrapperVideo.style.display='none'
+  overlayContentVideo.src=null
+  overlayContentVideo.style.opacity='0%'
+  document.body.style.overflow='auto'
+})
+
+if (!shouldShowModal) {
+  menuWrapper.style.display = 'none';
+  overlayWrapper.style.display = 'none';
+  overlayWrapperVideo.style.display = 'none';
+}
