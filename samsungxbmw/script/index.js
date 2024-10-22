@@ -27,11 +27,6 @@ menuModal.forEach((menu) => {
 });
 
 //IMAGE MODAL
-
-
-
-
-// image modal
 const overlayWrapper=document.querySelector('.overlay-wrapper')
 const overlayContent=document.querySelector('.overlay-content')
 const imageModal=document.querySelectorAll('.image-modal')
