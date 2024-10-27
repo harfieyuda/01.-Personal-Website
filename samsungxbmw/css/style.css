@@ -388,11 +388,21 @@ body{
     .hero-image-container{
         margin: 0%;
     }
+
+    .hero-image-container-2{
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+    }
     
     .hero-image{
         max-width: 100%;
     }
     
+    .hero-image-2{
+        max-width: 50%;
+    }
+
     .image-container-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -566,9 +576,19 @@ body{
     .hero-image-container{
         margin: 0%;
     }
+
+    .hero-image-container-2{
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+    }
     
     .hero-image{
         max-width: 100%;
+    }
+
+    .hero-image-2{
+        max-width: 50%;
     }
     
     .image-container-grid{
