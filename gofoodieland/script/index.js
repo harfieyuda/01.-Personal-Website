@@ -57,3 +57,34 @@ if (!shouldShowModal) {
     menuWrapper.style.display = 'none';
     overlayWrapper.style.display = 'none';
 }
+
+//VIDEO MODAL
+const overlayWrapperVideo=document.querySelector('.overlay-wrapper-video')
+const overlayContentVideo=document.querySelector('.overlay-content-video')
+const videoModal=document.querySelectorAll('.video-modal')
+const closeButtonVideo=document.querySelector('.close-button-video')
+
+videoModal.forEach((video)=>{
+    video.addEventListener('click', ()=>{
+        document.body.style.overflow='hidden'
+        overlayContentVideo.src=video.src
+        overlayWrapperVideo.style.display='block'
+        const timeout=setTimeout(()=>{
+          overlayContentVideo.style.opacity='100%'
+            clearTimeout(timeout)
+        },0)
+    })
+})
+
+closeButtonVideo.addEventListener('click', ()=>{
+  overlayWrapperVideo.style.display='none'
+  overlayContentVideo.src=null
+  overlayContentVideo.style.opacity='0%'
+  document.body.style.overflow='auto'
+})
+
+if (!shouldShowModal) {
+  menuWrapper.style.display = 'none';
+  overlayWrapper.style.display = 'none';
+  overlayWrapperVideo.style.display = 'none';
+}
