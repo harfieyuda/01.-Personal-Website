@@ -557,7 +557,7 @@ body{
     }
 
     .logo{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: bold;
         margin: 1%;
 
@@ -573,7 +573,7 @@ body{
     }
 
     .link{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         padding: 1rem;
         color: #1b1b1b;
         transition: 0.25s;
@@ -581,7 +581,7 @@ body{
     }
 
     .link-active{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         font-weight: bold;
         padding: 1rem;
         color: #1b1b1b;
@@ -603,7 +603,7 @@ body{
 
     .text-hero{
         margin-top: 10%;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         color: #1b1b1b;
         /*mix-blend-mode: difference;*/
     }
@@ -617,7 +617,7 @@ body{
         display: flex;
         align-items: center;
         gap:0.25rem;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: bold;
         text-decoration: none;
         color: #1b1b1b;
@@ -681,7 +681,7 @@ body{
 
     .project-title{
         color: #1b1b1b;
-        font-size: 1.75rem;
+        font-size: 1.65rem;
         font-weight: bold;
         margin-bottom: 2%;
         text-decoration: none;
@@ -695,7 +695,7 @@ body{
     .project-type-green{
         margin:1%;
         color: #0e6027;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         /* outline: 1px solid #757575; */
         background-color: #74e792;
         padding: 0.25rem 0.5rem;
@@ -705,7 +705,7 @@ body{
     .project-type-red{
         margin:1%;
         color: #a2191f;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         /* outline: 1px solid #757575; */
         background-color: #ffc2c5;
         padding: 0.25rem 0.5rem;
@@ -715,7 +715,7 @@ body{
     .project-type-yellow{
         margin:1%;
         color: #9e791b;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         /* outline: 1px solid #757575; */
         background-color: #fff5ca;
         padding: 0.25rem 0.5rem;
@@ -725,7 +725,7 @@ body{
     .project-type-blue{
         margin:1%;
         color: #0043ce;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         /* outline: 1px solid #757575; */
         background-color: #b8d3ff;
         padding: 0.25rem 0.5rem;
@@ -735,7 +735,7 @@ body{
     .project-type-purple{
         margin:1%;
         color: #6929c4;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         /* outline: 1px solid #757575; */
         background-color: #dcc7ff;
         padding: 0.25rem 0.5rem;
